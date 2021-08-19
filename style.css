@@ -1,0 +1,74 @@
+body{
+    background:white	;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding:0;}
+header{
+    height: 500px;
+    background-image: url("WALLPAPER/679525.jpg");
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    background-color:black;
+    padding: 20px;
+}
+header a{
+    color: tomato;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 0px;
+
+}
+header .logo a{
+    background-image: url("logo.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    height:200px;
+    text-indent: 999999px;
+    width: 300px;
+}
+
+footer
+{
+    font: outline;
+    background: black;
+    padding:  10px;
+    font: 10px sans-serif;
+}
+
+.car
+{
+    height: 400px;
+    background:tomato;
+    color: black;
+    padding: 20px; 
+    display: flex;
+    flex-direction: row;
+    bottom: 70px;
+
+}
+.car figure{
+    margin: auto;
+    text-align: center;
+    width: 1000px ; 
+}
+.car figure img{
+    border: 2px solid white;
+    box-shadow: black 10px 10px 50px;
+    border-radius: 50%;
+    width: 1000px;
+}
+ul{
+    margin: 0;
+    padding: 0; 
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
